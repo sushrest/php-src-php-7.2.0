@@ -1,0 +1,18 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--prefix=/var/lang/' \
+'--enable-fpm' \
+'--with-gd' \
+'--with-pdo-mysql' \
+'--with-openssl' \
+'--with-curl' \
+'--with-zlib' \
+'--with-pear' \
+'--enable-bcmath' \
+'--with-bz2' \
+'--enable-mbstring' \
+'--with-mysqli' \
+"$@"
